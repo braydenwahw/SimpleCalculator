@@ -10,8 +10,6 @@ while True:
         break
     elif operation == "/" and num2 == 0:
         print("Cannot divide by zero. ")
-        print("Thank you for using SimpleCalculator :) ")
-        exit()
     elif operation == "+":
         print(f"Result: {num1 + num2}")
     elif operation == "-":
@@ -24,3 +22,4 @@ while True:
         print("Invalid operation")
 
 print("Thank you for using SimpleCalculator :) ")
+
